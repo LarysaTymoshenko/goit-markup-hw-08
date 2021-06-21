@@ -1,0 +1,10 @@
+.container {
+  @extend %base-size;
+}
+
+.footer__container {
+  @extend %base-size;
+
+  display: block;
+  margin-bottom: 20px;
+}

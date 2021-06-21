@@ -1,0 +1,125 @@
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--link-text-color);
+  background-color: var(--background-hero-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-social-list__titl,
+.form-sub__titl {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer__list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__box {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.footer__contact {
+  font-family: inherit;
+  color: var(--contact-footer-text-color);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+    fill: var(--accent-text-color);
+  }
+}
+
+.footer__address {
+  color: var(--link-text-color);
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+
+.address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.footer-social-list {
+  margin-left: 70px;
+  margin-right: 76px;
+}
+
+.social-list__icon-footer {
+  fill: var(--link-text-color);
+  height: 20px;
+  width: 20px;
+}
+
+.btn-subsckript {
+  position: relative;
+
+  font-weight: 700;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 10px 29px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+
+  color: var(--link-text-color);
+  background-color: var(--accent-text-color);
+
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-activ-color);
+  }
+}
+
+.btn-subsckript__icon {
+  position: absolute;
+  right: 28px;
+  bottom: 13px;
+  margin-left: 10px;
+}
+
+.form-sub {
+  display: inline-block;
+  flex-direction: column;
+  margin-left: auto;
+}
+.form-sub__input {
+  background-color: var(--background-hero-footer-color);
+  width: 358px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 12px;
+  padding-left: 16px;
+  color: var(--link-text-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+}
+.subs {
+  display: inline-flex;
+  align-items: center;
+}
