@@ -1,11 +1,36 @@
+
+@media screen and (max-width:767.99px) {
+  .social-list {
+    display: flex;
+    justify-content: center;
+    max-width: 206px;
+    margin: auto;
+    margin-top: 16px;
+}
+.social-list__item {
+  padding-bottom: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+  }
+
+
+
+@media screen and (min-width: 768px){
+
 .social-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 206px;
+  max-width: 206px;
   margin: auto;
   margin-top: 16px;
 }
+}
+
 .social-list__link {
   width: 44px;
   height: 44px;

@@ -18,11 +18,21 @@
 </head>
 
 <body class="body">
-    <header class="header">
+<header class="header">
         <div class="container">
             <div class="header-box">
+                
                 <nav class="header__nav">
                     <a class="logo" href="./index.html"> Web<span class="logo__header">Studio</span></a>
+                    <button type="button" class="mobile-menu__button" data-menu-button aria-expanded="false">
+                        <svg class="menu-button__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+                         <use class="menu-button__icon-menu" href="./images/mobile/menu.svg#menu"></use>
+                         <use class="menu-button__icon-close" href="./images/close.svg#icon-close"></use>
+                       
+                        </svg>    
+                  
+                        </button>
+                    
                     <ul class="site-nav">
                         <li class="site-nav__item"> <a href="./index.html" class="site-nav__link current"> Студия </a> </li>
                        <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link "> Портфолио </a> </li>
@@ -46,13 +56,55 @@
             </div>
         </div>
     </header>
-
+    <!--Мобильное меню-->
+    <div class="mobile-menu container" data-menu>
+        <ul class=" mobile-menu__nav">
+         <li class="mobile-menu__nav-item">
+        <a class="mobile-menu__nav-link--current" href="./index.html">Студия</a>     
+         </li>
+         <li class="mobile-menu__nav-item">
+         <a class="mobile-menu__nav-link" href="./portfolio.html">Портфолио</a>    
+         </li>
+         <li class="mobile-menu__nav-item">
+          <a class="mobile-menu__nav-link" href="#">Контакты</a>   
+         </li>   
+        </ul>
+        <div class="mobile-menu__contacts-wrapper">
+        <ul class="mobile-menu__contacts">
+        <li class="mobile-menu__contacts-item--phone">
+        <a class="mobile-menu__contacts-link--phone" aria-label="Телефон" href="tel:+380961111111">+380961111111</a>    
+        </li>
+        <li class="mobile-menu__contacts-item--mail">
+        <a class="mobile-menu__contacts-link--mail" aria-label="Электронная почта" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>    
+        </ul>
+        <ul class=" mobile-menu__socials">
+        <li class="mobile-menu__socials-item">
+        <a class="mobile-menu__socials-link" href="https://www.instagram.com">Instagram</a>    
+        </li>
+        <span class="mobile-menu__socials-decore"></span>
+        <li class="mobile-menu__socials-item">
+        <a class="mobile-menu__socials-link" href="https://www.twitter.com">Twitter</a>    
+        </li>
+        <span class="mobile-menu__socials-decore"></span>
+        <li class="mobile-menu__socials-item">
+         <a class="mobile-menu__socials-link" href="https://www.facebook.com">Facebook</a>   
+        </li>
+        <span class="mobile-menu__socials-decore"></span>
+        <li class="mobile-menu__socials-item">
+        <a class="mobile-menu__socials-link" href="https://www.linkedin.com">Linkedin</a>    
+        </li>    
+        </ul>    
+        </div>    
+        </div>
     <main>
-        <section class="hero">
+       <!-- <section class="hero">
 
             <h1 class="hero__title">Эффективные решения <br> для вашего бизнеса </h1>
             <button class="hero__btn" type="button" data-modal-open>Заказать услугу</button>
         </section>
+    -->
+        
 
         <!--Особенности-->
         <section class="section-feat">
@@ -105,7 +157,7 @@
             </div>
         </section>
 <!--Чем мы занимаемся-->
-        <section class="section-work">
+      <section class="section-work">
     <div class="container">
 
             <h2 class="section-work__title">Чем мы занимаемся</h2>
@@ -122,16 +174,22 @@
                             height="294">
                         <p class="section-work__text">дизайнерские решения</p> </li>
                 </ul>
-</div>
+</div> 
         </section>
 <!--Наша команда-->
-        <section class="section-comand">
+       <section class="section-comand">
 <div class="container">
             <h2 class="section-comand__title"> Наша команда</h2>
             
                 <ul class="section-comand__list">
-                    <li class="section-comand__item"><img src="./images/ourcom/id.jpg" alt="Игорь Демьяненко" width="270"
-                            height="260">
+                    <li class="section-comand__item">
+                        <picture>
+
+                        <source srcset="./images/desktop/ourcom/img1хcom-1.jpg, ./images/desktop/ourcom/img2хcom-1.jpg" media="(min-width: 1200px)" type="image/jpg" >
+                        <source srcset="./images/tablet/ourcom/img1xcom1.jpg, ./images/tablet/ourcom/img2xcom1.jpg" media="(min-width: 768px)"  type="image/jpg">
+                        <source srcset="./images/mobile/ourcom/img1xcom1.jpg, ./images/mobile/ourcom/img2xcom1.jpg" media="(max-width: 480px)" type="image/jpg" >
+                        <img src="./images/ourcom/id.jpg" alt="Игорь Демьяненко" >
+                        </picture>
                         <div class="comand">
                             <h3 class="section-comand__title_name">Игорь Демьяненко</h3>
                             <p class="section-comand__text">Product Designer</p>
@@ -168,8 +226,13 @@
 
                         </div>
                     </li>
-                    <li class="section-comand__item"> <img src="./images/ourcom/op.jpg" alt="Ольга Репина" width="270"
-                            height="260">
+                    <li class="section-comand__item">
+                        <picture>
+                            <source srcset="./images/desktop/ourcom/img1хcom2.jpg, ./images/desktop/ourcom/img2хcom2.jpg" media="(min-width: 1200px)" type="image/jpg" >
+                        <source srcset="./images/tablet/ourcom/img1xcom2.jpg, ./images/tablet/ourcom/img2xcom2.jpg" media="(min-width: 768px)" type="image/jpg">
+                        <source srcset="./images/mobile/ourcom/img1xcom2.jpg, ./images/mobile/ourcom/img2xcom2.jpg" media="(min-width: 480px)" type="image/jpg">
+                         <img src="./images/ourcom/op.jpg" alt="Ольга Репина" >
+                        </picture>
                         <div class="comand">
                             <h3 class="section-comand__title_name"> Ольга Репина</h3>
                             <p class="section-comand__text">Frontend Developer</p>
@@ -205,8 +268,13 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="section-comand__item"> <img src="./images/ourcom/nt.jpg" alt="Николай Тарасов" width="270"
-                            height="260">
+                    <li class="section-comand__item"> 
+                        <picture>
+                            <source srcset="./images/desktop/ourcom/img1xcom3.jpg,./images/desktop/ourcom/img2xcom3.jpg" media="(min-width: 1200px )" type="image/jpg">
+                        <source srcset="./images/tablet/ourcom/img1xcom3.jpg, ./images/tablet/ourcom/img2xcom3.jpg" media="(min-width: 768px)" type="image/jpg">
+                        <source srcset="./images/mobile/ourcom/img1xcom3.jpg, ./images/mobile/ourcom/img2xcom3.jpg" media="(min-width: 480px)" type="image/jpg">
+                        <img src="./images/ourcom/nt.jpg" alt="Николай Тарасов" >
+                        </picture>
                         <div class="comand">
                             <h3 class="section-comand__title_name"> Николай Тарасов</h3>
                             <p class="section-comand__text">Marketing</p>
@@ -242,8 +310,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="section-comand__item"> <img src="./images/ourcom/me.jpg" alt="Михаил Ермаков" width="270"
-                            height="260">
+                    <li class="section-comand__item">
+                        <picture>
+                        <source srcset="./images/desktop/ourcom/img1хcom-4.jpg, ./images/desktop/ourcom/img2хcom-4.jpg" media="(min-width: 1200px )" type="image/jpg">
+                        <source srcset="./images/tablet/ourcom/img1xcom4.jpg, ./images/tablet/ourcom/img2xcom4.jpg" media="(min-width: 768px)" type="image/jpg">
+                        <source srcset="./images/mobile/ourcom/img1xcom4.jpg, ./images/mobile/ourcom/img2xcom4.jpg" media="(max-width: 480px)" type="image/jpg">
+                        
+                        <img src="./images/ourcom/me.jpg" alt="Михаил Ермаков" >
+                        </picture>
                         <div class="comand">
                             <h3 class="section-comand__title_name"> Михаил Ермаков</h3>
                             <p class="section-comand__text">UI Designer</p>
@@ -281,10 +355,10 @@
                     </li>
                 </ul>
 
-            </div>
+            </div> 
         </section>
 
-        <section class="section-client">
+    <!--  <section class="section-client">
             <div class="container">
             <h2 class="section-client__titl">Постоянные клиенты</h2>
             <ul class="section-client__list">
@@ -323,10 +397,10 @@
                     </a></li>
             </ul>
 </div>
-        </section>
+        </section>-->
         
     </main>
-
+<!--
     <footer class="footer">
         <div class="footer__container">
 <div class="footer__box">
@@ -378,11 +452,11 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
 
 
 
-    <form class="form-sub">
+ <!--   <form class="form-sub">
         <h3 class="form-sub__titl">Подпишитесь на рассылку</h3>
         <div class="subs">
             <label>
@@ -397,7 +471,7 @@
     </form>
 </div>
 </div>
-</footer>
+</footer> -->
     <!--Модальное окно-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
@@ -450,10 +524,11 @@
         </div>
         </div>
     
-  
+
 
     <!--Линк к модальному окну-->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobmenu.js"></script>
 </body>
 
 </html>

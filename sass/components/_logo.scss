@@ -1,3 +1,23 @@
+@media screen  and (max-width:767.99px) {
+ 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+.logo__header {
+  color: var(--primery-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+ 
+}
+@media screen  and (min-width:1200x){
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -9,12 +29,8 @@
   text-decoration: none;
 }
 
-.logo__header {
-  color: var(--primery-text-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 
 .logo__footer {
   color: var(--link-text-color);
+}
 }

@@ -1,7 +1,32 @@
-.container {
-  @extend %base-size;
+
+//---480-768---//
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  }
+}
+//---768-100---//
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+   
+  }
+}
+//---1200 + ---//
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+  
+  }
 }
 
+.container {
+  width: 100%;
+  @extend %base-size;
+}
 .footer__container {
   @extend %base-size;
 

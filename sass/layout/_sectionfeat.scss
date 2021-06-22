@@ -1,23 +1,88 @@
+@media screen and (max-width:767.99px) {
+.section-feat {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.section-feat__item {
+  width:100%;
+margin-bottom: 30px;
+}
+
+.section-feat__list {
+  display: block;
+  max-width:767.99px;
+}
+.section-feat__title {
+  text-align: center;
+}
+.section-feat__text {
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--secondary-text-color);
+  margin-top: 10px;
+  
+}
+}
+
+@media screen and (min-width: 768px){
+.section-feat {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.section-feat__list {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  
+margin-left: -30px;
+margin-top: -30px;
+}
+
+.section-feat__item {
+  flex-basis: calc((100% - 30px * 2) / 2);
+  margin-top: 30px;
+  margin-left: 30px;
+  
+}
+.section-feat__title {
+  text-align: left;
+}
+.section-feat__text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--secondary-text-color);
+  margin-top: 10px;
+  width: 100%;
+}
+}
+@media screen and (min-width: 1200px){
 .section-feat {
   padding-bottom: 0px;
   padding-top: 94px;
 }
-.feat1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(245, 244, 250, 1);
-  height: 120px;
-  margin-bottom: 30px;
-}
-.section-feat__item {
-  width: 270px;
+.section-feat__list {
+  justify-content: space-between;
+ min-width: 1200px;
 }
 
-.section-feat__icon {
-  width: 70px;
-  height: 70px;
+
+.section-feat__item { 
+  flex-basis: calc((100% - 30px * 4) / 4);
+
+  
 }
+
 .section-feat__text {
   font-weight: 400;
   font-size: 14px;
@@ -27,15 +92,29 @@
   margin-top: 10px;
   width: 270px;
 }
-.section-feat__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
+
+.feat1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 244, 250, 1);
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+
+
+
 .section-feat__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.section-feat__icon {
+  width: 70px;
+  height: 70px;
 }

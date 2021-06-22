@@ -1,3 +1,13 @@
+.body {
+  font-family: Roboto, Raleway, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background-color: var(--link-text-color);
+}
+
 h1,
 h2,
 h3,
@@ -20,13 +30,4 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.body {
-  font-family: Roboto, Raleway, sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.36;
-  letter-spacing: 0.03em;
-  color: var(--primery-text-color);
-  background-color: var(--link-text-color);
 }
