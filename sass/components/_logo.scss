@@ -17,7 +17,8 @@
 
  
 }
-@media screen  and (min-width:1200x){
+
+@media screen  and (min-width:768px){
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -28,7 +29,11 @@
   margin-right: 93px;
   text-decoration: none;
 }
-
+.logo__header {
+  color: var(--primery-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo__footer {
   color: var(--link-text-color);

@@ -5,8 +5,9 @@
     padding-top: 10px;
     padding-bottom: 20px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
+    width: 480px;
   }
   .header__nav {
     display: flex;
@@ -22,7 +23,7 @@
   .header-box {
     display: flex;
       justify-content:space-between;
-      padding-top: 18px
+      padding-top: 18px;
   }
   .header__nav {
     display: flex;
