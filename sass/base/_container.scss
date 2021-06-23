@@ -2,8 +2,8 @@
 //---0-480---//
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 480px;
-    padding-left: 15px;
+ max-width: 480px;
+ padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   }
@@ -11,8 +11,8 @@
 //---480-768---//
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
-    padding-left: 15px;
+  width: 480px;
+  padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   }

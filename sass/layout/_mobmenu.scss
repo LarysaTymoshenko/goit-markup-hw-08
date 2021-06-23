@@ -2,7 +2,7 @@
 .mobile-menu {
     display: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767.99px) {
     .mobile-menu__socials-item {
         margin-bottom:10px;
     }
@@ -60,10 +60,7 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
-    position: absolute;
-    top: 18%;
-    right: 3%;
-
+  
     &:hover,
     &:focus {
 fill:var(--accent-text-color);
@@ -155,3 +152,6 @@ color:var(--accent-text-color) ;
         display:none;
     }
 }
+/*position: absolute;
+top: 1%;
+right: 2%;*/

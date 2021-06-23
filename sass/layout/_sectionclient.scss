@@ -1,3 +1,27 @@
+@media screen and (max-width:767.99px){
+  .section-client {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .section-client__titl {
+    @include font(28px, 1.17, 0.03em, 700);
+  
+    text-align: center;
+  
+    color: var(--primery-text-color);
+    
+  }
+  .section-client__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+
+
 .section-client {
   padding-bottom: 94px;
   padding-top: 94px;

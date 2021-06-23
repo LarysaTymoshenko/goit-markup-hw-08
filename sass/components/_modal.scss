@@ -1,3 +1,16 @@
+@media screen and (max-width:1199.99px){
+  .modal-window {
+  width: 450px;
+height: 609px;}
+}
+
+@media screen and (min-width:1200px){
+  .modal-window {
+  width: 528px;
+  height: 581px;
+}
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -21,9 +34,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%);
 
-  width: 528px;
+  
   padding: 40px;
 
   background-color: var(--link-text-color);
