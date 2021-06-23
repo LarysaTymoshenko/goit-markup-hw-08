@@ -6,6 +6,7 @@
     padding-bottom: 20px;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
   }
   .header__nav {
     display: flex;
@@ -19,6 +20,7 @@
 
 @media screen and (min-width: 768px) {
   .header-box {
+    display: flex;
       justify-content:space-between;
       padding-top: 18px
   }
