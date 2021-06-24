@@ -898,6 +898,23 @@ img {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__box {
+    width: 768px;
+    align-items: baseline;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .form-sub {
+    display: inline-block;
+    flex-direction: column;
+    margin-left: auto;
+  }
+}
 @media screen and (max-width: 1199px) {
   .footer__container {
     display: block;
@@ -937,19 +954,19 @@ img {
     line-height: 1.14;
     margin-bottom: 4px;
   }
-
-  .social-list__item-footer {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-  }
-  .social-list__item-footer:not(:last-child) {
-    margin-right: 10px;
-  }
 }
+.form-sub {
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 0;
+}
+
 @media screen and (min-width: 1200px) {
   .footer__box {
     display: inline-flex;
     align-items: baseline;
+    width: 100%;
+    text-align: start;
   }
 
   .form-sub__input {
@@ -968,6 +985,10 @@ img {
   .footer-social-list {
     margin-left: 70px;
     margin-right: 76px;
+  }
+
+  .form-sub {
+    margin-left: auto;
   }
 }
 .footer__list:not(:last-child) {
@@ -1034,15 +1055,17 @@ img {
   margin-left: 10px;
 }
 
-.form-sub {
-  display: inline-block;
-  flex-direction: column;
-  margin-left: auto;
-}
-
 .subs {
   display: inline-flex;
   align-items: center;
+}
+
+.social-list__item-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-list__item-footer:not(:last-child) {
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 767.99px) {
@@ -1384,7 +1407,8 @@ img {
   .section-client {
     padding-bottom: 94px;
     padding-top: 94px;
-    max-width: 1600px;
+    max-width: 100%;
+    margin: 0;
   }
 
   .section-client__titl {
@@ -1432,6 +1456,14 @@ img {
   border-color: var(--accent-text-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .card-portfolio__box-text {
   line-height: 1.87;
   margin-top: 4px;

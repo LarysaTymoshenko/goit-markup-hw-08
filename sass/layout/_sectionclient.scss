@@ -54,7 +54,8 @@
 .section-client {
   padding-bottom: 94px;
   padding-top: 94px;
-  max-width: 1600px;
+  max-width:100%;
+  margin: 0;
 }
 .section-client__titl {
   @include font(36px, 1.16, 0.03em, 700);
