@@ -30,10 +30,10 @@
                         <li class="site-nav__item"> <a href="" class="site-nav__link">Контакт </a> </li>
                     </ul>
                 </nav>
-                <button type="button" class="mobile-menu__button" data-menu-button aria-expanded="false">
+                <button type="button" class="mobile-menu__button" data-menu-button >
                     <svg class="menu-button__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
                      <use class="menu-button__icon-menu" href="./images/mobile/menu.svg#menu"></use>
-                     <use class="menu-button__icon-close" href="./images/close.svg#icon-close"></use>
+                     
                     </svg>    
                     </button>
                
@@ -56,6 +56,12 @@
     </header>
     <!--Мобильное меню-->
     <div class="mobile-menu container" data-menu>
+        <button type="button" class="mobile-menu__button" data-menu-close >
+            <svg class="menu-button__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+        
+             <use class="menu-button__icon-close" href="./images/close.svg#icon-close"></use>
+            </svg>    
+            </button>
         <ul class=" mobile-menu__nav">
          <li class="mobile-menu__nav-item">
         <a class="mobile-menu__nav-link--current" href="./index.html">Студия</a>     
@@ -526,7 +532,8 @@
 
     <!--Линк к модальному окну-->
     <script src="./js/modal.js"></script>
-    <script src="./js/mobmenu.js"></script>
+   
+    <script src="./js/mob.js"></script>
 </body>
 
 </html>
