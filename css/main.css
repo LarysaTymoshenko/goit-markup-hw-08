@@ -153,8 +153,8 @@ img {
 }
 .backdrop {
   position: fixed;
-  top: 93px;
-  left: 3px;
+  top: 30%;
+  left: 5%;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
