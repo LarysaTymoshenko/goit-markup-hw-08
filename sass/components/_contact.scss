@@ -26,8 +26,8 @@
     .contact__item:not(:first-child) {
       margin-left: 50px;
     }
-    .contact__item {
-      margin-bottom: 0;}
+    .contact__item:not(:last-child) {
+      margin-bottom: 0px;}
 
     .contact__link {
       font-size: 14px;

@@ -269,8 +269,8 @@ img {
     margin-left: 50px;
   }
 
-  .contact__item {
-    margin-bottom: 0;
+  .contact__item:not(:last-child) {
+    margin-bottom: 0px;
   }
 
   .contact__link {
@@ -735,20 +735,26 @@ img {
     color: var(--accent-text-color);
   }
 }
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 767px) {
   .hero {
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    max-width: 767.99px;
+    max-width: 767px;
     height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/heromob.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/hero/1xheromob.jpg");
     background-color: var(--background-hero-footer-color);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+}
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)), url("../images/mobile/hero/2xheromob.jpg");
+  }
+}
+@media screen and (max-width: 767px) {
   .hero__title {
     font-weight: 900;
     font-size: 26px;
@@ -759,7 +765,8 @@ img {
     margin-bottom: 30px;
     letter-spacing: 0.06em;
   }
-
+}
+@media screen and (max-width: 767px) {
   .hero__btn {
     display: inline-block;
     font-size: inherit;
@@ -790,13 +797,19 @@ img {
     padding-top: 118px;
     padding-bottom: 118px;
     min-width: 768px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/hero/tabhero.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/hero/1xhtab.jpg);
     background-color: var(--background-hero-footer-color);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)), url("../images/tablet/hero/2xhtab.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
   .hero__title {
     font-weight: 900;
     font-size: 26px;
@@ -807,7 +820,8 @@ img {
     margin-bottom: 30px;
     letter-spacing: 0.06em;
   }
-
+}
+@media screen and (min-width: 768px) {
   .hero__btn {
     display: inline-block;
     font-size: inherit;
@@ -839,13 +853,19 @@ img {
     padding-bottom: 200px;
     max-width: 1600px;
     height: 600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/Img.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/hero/1xhdes.jpg);
     background-color: var(--background-hero-footer-color);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)), url("../images/hero/2xhdes.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
   .hero__title {
     font-weight: 900;
     font-size: 44px;
@@ -855,7 +875,8 @@ img {
     text-align: center;
     margin-bottom: 30px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .hero__btn {
     display: inline-block;
     font-size: inherit;
