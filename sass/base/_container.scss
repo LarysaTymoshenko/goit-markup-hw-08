@@ -32,13 +32,8 @@
   }
 }
 
-.container {
-  width: 100%;
-  @extend %base-size;
-}
-.footer__container {
-  @extend %base-size;
 
+.footer__container {
   display: block;
   margin-bottom: 20px;
 }
