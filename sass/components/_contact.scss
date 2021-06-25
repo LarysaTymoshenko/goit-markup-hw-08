@@ -1,6 +1,9 @@
+
+
 @media screen  and (min-width:768px){
  
   .contact{ 
+    display: block;
     font-size: 12px;
     font-weight: 500;
     line-height: 1.16;
@@ -9,7 +12,7 @@
     margin: 21px 0 21px auto;
     
     }
-   
+  
     .contact__item:not(:last-child) {
       margin-bottom: 10px;
   }

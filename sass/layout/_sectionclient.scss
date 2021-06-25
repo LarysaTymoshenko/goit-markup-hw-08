@@ -55,7 +55,7 @@
   padding-bottom: 94px;
   padding-top: 94px;
   max-width:100%;
-  margin: 0;
+ 
 }
 .section-client__titl {
   @include font(36px, 1.16, 0.03em, 700);
@@ -74,13 +74,13 @@ flex-basis: calc((100% - 180px) / 6);}
 .section-client__list {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  flex-wrap: wrap;
+ 
   margin: -15px;
 }
 .section-client__icon {
-  width: 106px;
+  width: 106px; flex-wrap: wrap;
   height: 60px;
 }
 

@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1199.99px) {
   .form-field__input {
-    width: 370px;
+    width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
   }
@@ -26,10 +26,10 @@
 
 @media screen and (min-width: 1200px) {
   .form-field__input {
-    width: 448px;
+    width:100%;
   }
   .field-comment__text {
-    width: 448px;
+    width: 100%;
     height: 120px;
   }
 }
