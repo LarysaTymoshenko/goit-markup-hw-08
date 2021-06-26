@@ -1410,13 +1410,16 @@ img {
   display: block;
 }
 
+.section-client {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 480px) {
   .section-client {
-    padding-bottom: 60px;
-    padding-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 480px;
+    width: 480px;
   }
 
   .section-client__titl {
@@ -1438,11 +1441,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .section-client {
-    padding-bottom: 60px;
-    padding-top: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 768px;
+    width: 768px;
   }
 
   .section-client__titl {
@@ -1466,7 +1465,7 @@ img {
   .section-client {
     padding-bottom: 94px;
     padding-top: 94px;
-    max-width: 100%;
+    width: 1200px;
   }
 
   .section-client__titl {
@@ -1488,6 +1487,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: -15px;
 }
 
