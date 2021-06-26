@@ -2,25 +2,19 @@
   .modal-window {
   max-width: 450px;
 height: 609px;}
+
 .backdrop {
 top: 5%;
-  left: 5%;
-
-  width: 100vw;
-  height: 100vh;
-
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow-y: scroll;
-}}
+left: 5%;
+   overflow: scroll;
+}
+}
 
 @media screen and (min-width:1200px){
   .modal-window {
   width: 528px;
   height:581px;
   }
-
 
 .backdrop {
   position: fixed; 
@@ -116,3 +110,15 @@ top: 5%;
   justify-content: center;
   margin-top: 30px;
 }
+.backdrop {
+  top: 5%;
+    left: 5%;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
