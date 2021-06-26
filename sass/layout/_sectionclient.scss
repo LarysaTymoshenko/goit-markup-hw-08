@@ -1,86 +1,82 @@
-@media screen and (max-width:767.99px){
+@media screen and (max-width: 767.99px) {
   .section-client {
     padding-bottom: 60px;
     padding-top: 60px;
-    margin-right: auto;
     margin-left: auto;
-    width: 480px;
+    margin-right: auto;
+    max-width: 480px;
   }
   .section-client__titl {
     @include font(28px, 1.17, 0.03em, 700);
-  
+
     text-align: center;
     margin-bottom: 30px;
     color: var(--primery-text-color);
-    
   }
-  
+
   .section-client__item {
-    height: 92px;  
+    height: 92px;
     display: flex;
     margin: 15px;
     flex-basis: calc((100% - 60px) / 2);
-}
+  }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .section-client {
     padding-bottom: 60px;
     padding-top: 60px;
     margin-right: auto;
     margin-left: auto;
-    width: 768px;
+    max-width: 768px;
   }
   .section-client__titl {
     @include font(28px, 1.17, 0.03em, 700);
-  
+
     text-align: center;
     margin-bottom: 30px;
     color: var(--primery-text-color);
-    
   }
-  
+
   .section-client__item {
-    height: 92px;  
+    height: 92px;
     display: flex;
     margin: 15px;
- 
-  flex-basis: calc((100% - 90px*3) / 3);
+
+    flex-basis: calc((100% - 90px * 3) / 3);
+  }
 }
 
-}
+@media screen and (min-width: 1200px) {
+  .section-client {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    max-width: 100%;
+  }
+  .section-client__titl {
+    @include font(36px, 1.16, 0.03em, 700);
 
-@media screen and (min-width:1200px) {
-.section-client {
-  padding-bottom: 94px;
-  padding-top: 94px;
-  max-width:100%;
- 
-}
-.section-client__titl {
-  @include font(36px, 1.16, 0.03em, 700);
+    text-align: center;
 
-  text-align: center;
+    color: var(--primery-text-color);
+    margin-bottom: 50px;
+  }
 
-  color: var(--primery-text-color);
-  margin-bottom: 50px;
-}
-
-.section-client__item {
-flex-basis: calc((100% - 180px) / 6);}
-
-
+  .section-client__item {
+    flex-basis: calc((100% - 180px) / 6);
+  }
 }
 .section-client__list {
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
- 
+
   margin: -15px;
 }
 .section-client__icon {
-  width: 106px; flex-wrap: wrap;
+  width: 106px;
+  flex-wrap: wrap;
   height: 60px;
 }
 
