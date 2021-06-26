@@ -59,6 +59,34 @@ img {
   height: auto;
 }
 
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+/*@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
@@ -71,16 +99,19 @@ img {
     width: 768px;
   }
 }
+//---768-1199---//
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
+*/
 .footer__container {
   display: block;
   margin-bottom: 20px;
@@ -225,6 +256,10 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+.contact {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -559,25 +594,25 @@ img {
   color: var(--secondary-text-color);
 }
 
-@media screen and (max-width: 767.99px) {
+.site-nav__item {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
   .header-box {
-    max-width: 480px;
+    width: 480px;
     margin-top: 16px;
     margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
   }
 
   .header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .site-nav__item,
-.contact {
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -593,6 +628,7 @@ img {
   }
 
   .header-box {
+    height: 80px;
     width: 768px;
     display: flex;
     justify-content: space-between;
@@ -659,17 +695,17 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .header-box {
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .header__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
+  /* .header__nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }*/
   .site-nav__link {
     position: relative;
     padding-top: 32px;
@@ -1370,6 +1406,10 @@ img {
   padding: 30px 30px;
 }
 
+.pict {
+  display: block;
+}
+
 @media screen and (min-width: 480px) {
   .section-client {
     padding-bottom: 60px;
@@ -1487,6 +1527,9 @@ img {
   }
   .card-portfolio:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .card-portfolio .card-portfolio__item {
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {

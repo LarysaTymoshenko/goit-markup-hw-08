@@ -1,25 +1,29 @@
-@media screen and (max-width: 767.99px) {
+
+ .site-nav__item
+ {
+   display: none;
+ }
+@media screen and (min-width: 480px) {
   .header-box {
-    max-width: 480px;
+    width: 480px;
     margin-top: 16px;
     margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
   }
   .header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .site-nav__item,
-  .contact {
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
-  .site-nav__item {
+  
+    .site-nav__item {
     display: block;
   }
   .site-nav {
@@ -30,6 +34,7 @@
   }
 
   .header-box {
+    height: 80px;
     width: 768px;
     display: flex;
     justify-content: space-between;
@@ -102,16 +107,18 @@
 
 @media screen and (min-width: 1200px) {
   .header-box {
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
 
-  .header__nav {
+ /* .header__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+  }*/
 
   .site-nav__link {
     position: relative;

@@ -1,4 +1,34 @@
-//---0-480---//
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media screen and (min-width: 480px) {
+  .container {
+      width:480px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .container {
+      width:768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+      width:1200px;
+  }
+}
+/*@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
@@ -23,7 +53,7 @@
     width: 1200px;
   }
 }
-
+*/
 .footer__container {
   display: block;
   margin-bottom: 20px;
