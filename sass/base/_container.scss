@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 @media screen and (min-width: 320px) {
-  .container {
+  .container,.footer__container {
       width:320px;}
   }
 
@@ -16,19 +16,18 @@
 
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .container, .footer__container {
       width:768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .container, .footer__container {
       width:1200px;
   }
 }
 
-.footer__container {
-  display: block;
+.footer__container{
   margin-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
