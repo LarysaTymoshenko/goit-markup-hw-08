@@ -19,6 +19,7 @@
   text-transform: uppercase;
 }
 
+
 @media screen and (min-width: 768px){
   .footer__box
   { width: 768px;
@@ -57,7 +58,7 @@
       color: var(--link-text-color);
       border: 1px solid rgba(255, 255, 255, 0.3);
       box-shadow: rgba(0, 0, 0, 0.15);
-    
+      
       border-radius: 4px;
     }
 

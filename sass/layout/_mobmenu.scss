@@ -2,21 +2,18 @@
 .mobile-menu {
     display: none;
 }
+@media screen and (max-width: 767px){
+.mobile-menu {
+    width: 480px;
+    position: relative;}
+
+}
 
 @media screen and (min-width: 768px){
     .menu-button__icon-menu{
     display: none;}
 }   
-
-@media screen and (max-width: 767.99px) {
-    .mobile-menu {
-        width: 480px;
-        position: relative;
-
-    }
-}
-
-
+   
 .mobile-menu.is-open {
     position: fixed;
     top: 0;
@@ -28,7 +25,9 @@
 
 opacity: 1;
  visibility: visible;
- pointer-events: auto;
+ pointer-events: auto;}
+
+.mobile-menu.is-open {
 
     display: flex;
     flex-direction: column;
@@ -39,6 +38,9 @@ opacity: 1;
     transition: 0.5s;
     
 }
+
+
+
 
 .mobile-menu__nav {
     font-size: 40px;
@@ -76,13 +78,13 @@ color:var(--accent-text-color)
     }
 
 .mobile-menu__button {
-    position: absolute;
+   position: absolute;
     top: 10px;
     right: 15px;
     z-index: 20;
     
-display: inline-flex;
-justify-content: center;
+    display: inline-flex;
+
     padding: 0;
     margin: 0;
     width: 40px;

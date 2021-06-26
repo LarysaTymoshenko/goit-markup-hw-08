@@ -1,19 +1,32 @@
 
+ .header-box {
+  max-width: 1600px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #ececec;
+
+}
+ 
  .site-nav__item
  {
    display: none;
  }
+
 @media screen and (min-width: 480px) {
   .header-box {
     width: 480px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    border-bottom: 1px solid #ececec;
   }
-  
+
   .header__nav {
     display: flex;
     justify-content: space-between;
@@ -115,11 +128,6 @@
 
   }
 
- /* .header__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }*/
 
   .site-nav__link {
     position: relative;
