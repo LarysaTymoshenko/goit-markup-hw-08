@@ -81,11 +81,6 @@ img {
     width: 1200px;
   }
 }
-@media screen and (max-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
 .footer__container {
   display: block;
   margin-bottom: 20px;
@@ -1375,7 +1370,7 @@ img {
   padding: 30px 30px;
 }
 
-@media screen and (max-width: 767.99px) {
+@media screen and (min-width: 480px) {
   .section-client {
     padding-bottom: 60px;
     padding-top: 60px;
