@@ -1,3 +1,8 @@
+@media screen and (min-width: 480px){
+.checkbox__policy {
+  min-width: 450px;}
+}
+
 .checkbox {
   display: flex;
   align-items: center;
@@ -6,6 +11,7 @@
 }
 
 .contract {
+  
   display: inline-block;
   color: var(--accent-text-color);
   text-decoration-color: var(--accent-text-color);
@@ -79,4 +85,8 @@
   letter-spacing: 0.03em;
   text-align: center;
   }
+}
+.contract__check {
+  text-decoration: none;
+  color: var(--primery-text-color);
 }
