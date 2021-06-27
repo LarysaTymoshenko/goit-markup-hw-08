@@ -964,7 +964,6 @@ img {
     display: block;
     text-align: center;
     margin-bottom: 60px;
-    max-width: 480px;
   }
 
   .footer__tumb {
@@ -1003,10 +1002,9 @@ img {
 @media screen and (min-width: 768px) {
   .footer__box {
     display: flex;
-    align-items: baseline;
+    justify-content: space-around;
     text-align: center;
-    flex-direction: unset;
-    margin: 0 auto;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1200px) {
