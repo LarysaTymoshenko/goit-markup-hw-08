@@ -6,9 +6,9 @@
     width: 480px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     margin-bottom: 40px;
     padding-left: 0;
-    
   }
   
 .filter-portfolio__item:nth-child(-n+3) {
