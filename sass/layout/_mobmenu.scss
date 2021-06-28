@@ -21,7 +21,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 101;
+    z-index: 1000;
     overflow: auto;
 
  opacity: 1;
@@ -50,8 +50,8 @@
     margin-bottom: 32px;
 }
 
-.mobile-menu__socials-item:not(:last-child) {
-    margin-right: 10px;
+.mobile-menu__socials-item:not(:first-child) {
+    margin-left: 10px;
 }
 
 .mobile-menu__nav-link--current {

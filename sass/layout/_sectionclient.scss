@@ -17,6 +17,14 @@
     margin-bottom: 30px;
     color: var(--primery-text-color);
   }
+.section-client__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
 
   .section-client__item {
     height: 92px;
@@ -77,7 +85,7 @@
 .section-client__list {
   
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: -15px;

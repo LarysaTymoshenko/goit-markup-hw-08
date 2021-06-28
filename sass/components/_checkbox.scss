@@ -1,3 +1,13 @@
+@media screen  and (min-width:320px){
+  .checkbox__policy {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  }
+}
+
 @media screen and (min-width: 480px){
 .checkbox__policy {
   min-width: 450px;}
@@ -77,15 +87,7 @@
     border-color: var(--accent-text-color);
   }
 }
-@media screen  and (max-width:1119.99px){
-  .checkbox__policy {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  }
-}
+
 .contract__check {
   text-decoration: none;
   color: var(--primery-text-color);

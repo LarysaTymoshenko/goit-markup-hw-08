@@ -1,4 +1,4 @@
-@media screen and (max-width:767.99px) {
+@media screen and (min-width:320px) {
 .section-feat {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -12,7 +12,7 @@ margin-bottom: 30px;
 
 .section-feat__list {
   display: block;
-  max-width:767.99px;
+
 }
 .section-feat__title {
   text-align: center;
