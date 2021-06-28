@@ -1056,6 +1056,10 @@ img {
     border-radius: 4px;
   }
 
+  .footer__tumb {
+    text-align: left;
+  }
+
   .footer-social-list {
     margin-left: 70px;
     margin-right: 76px;
