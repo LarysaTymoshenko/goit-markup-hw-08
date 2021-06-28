@@ -1843,9 +1843,6 @@ img {
   flex-wrap: wrap;
   width: 100%;
 }
-.mobile-menu__socials:not(:first-child) {
-  margin-left: 10px;
-}
 
 .mobile-menu__socials-link {
   font-weight: 500;
