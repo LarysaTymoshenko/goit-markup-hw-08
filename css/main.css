@@ -1749,10 +1749,11 @@ img {
   margin-bottom: 32px;
 }
 
-.mobile-menu__socials-item:not(:first-child) {
-  margin-left: 10px;
+.mobile-menu__socials-item {
+  margin: auto;
 }
 
+/*:not(:first-child)margin-left: 10px;*/
 .mobile-menu__nav-link--current {
   color: var(--accent-text-color);
   text-decoration: none;
@@ -1847,6 +1848,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  text-align: left;
 }
 
 .mobile-menu__socials-link {
