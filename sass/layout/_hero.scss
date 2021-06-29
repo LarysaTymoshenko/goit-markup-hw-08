@@ -32,7 +32,6 @@
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    min-width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/tablet/hero/1xhtab.jpg);
     background-color: var(--background-hero-footer-color);
@@ -79,10 +78,11 @@
 @media screen  and (min-width:1200px) {
   .hero {
     text-align: center;
-    padding-top: 118px;
-    padding-bottom: 118px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     max-width: 1600px;
-    background-image: (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    height: 600px;
+    background-image:  linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/desktop/hero/1xhdes.jpg);
     background-color: var(--background-hero-footer-color);
   background-position: center;

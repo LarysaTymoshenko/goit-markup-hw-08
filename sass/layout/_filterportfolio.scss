@@ -2,14 +2,20 @@
 
 @media screen and (min-width:320px)
 {
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
   .filter-portfolio {
-    width: 480px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin-bottom: 40px;
     padding-left: 0;
   }
+  .card-portfolio__item {
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+}
   
 .filter-portfolio__item:nth-child(-n+3) {
   margin-bottom: 15px;
@@ -17,7 +23,6 @@
 }
 @media screen and (min-width:768px){
 .filter-portfolio {
-  width: 768px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -53,4 +58,11 @@
       0px 3px 1px 0px rgba(0, 0, 0, 0.01);
     border-radius: 4px;
   }
-}
+
+
+} 
+@media screen and (min-width:1200px){
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} }
