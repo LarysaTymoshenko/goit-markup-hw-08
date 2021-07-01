@@ -30,6 +30,7 @@
  
   text-decoration: none;
   text-align: center;
+
 }
 .header .logo {
   margin-right: 88px;
@@ -47,7 +48,10 @@
     margin-right: 93px;
   }
   }
+  
+   .anime{animation: rotateY 3000ms infinite alternate backwards ease-in-out 1000ms;}
 
+  
 .logo__footer {
   color: var(--link-text-color);
-} 
+}  
