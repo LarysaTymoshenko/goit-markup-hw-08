@@ -1,19 +1,14 @@
-
- .header-box {
-  max-width: 1600px;
-
+.header-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   border-bottom: 1px solid #ececec;
-
 }
- 
- .site-nav__item
- {
-   display: none;
- }
+
+.site-nav__item {
+  display: none;
+}
 
 @media screen and (min-width: 480px) {
   .header-box {
@@ -31,14 +26,13 @@
     justify-content: space-between;
     align-items: center;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
-  
-    .site-nav__item {
+  .site-nav__item {
     display: block;
   }
+
   .site-nav {
     display: flex;
     align-items: center;
@@ -51,7 +45,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
   }
   .header__nav {
     display: flex;
@@ -124,9 +117,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
-
 
   .site-nav__link {
     position: relative;
