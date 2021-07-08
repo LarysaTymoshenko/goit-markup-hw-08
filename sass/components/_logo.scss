@@ -21,12 +21,10 @@
 
 @media screen  and (min-width:768px){
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
+  
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-text-color);
+  
  
   text-decoration: none;
   text-align: center;
@@ -48,10 +46,7 @@
     margin-right: 93px;
   }
   }
-  
-   .anime{animation: rotateY 3000ms infinite alternate backwards ease-in-out 1000ms;}
 
-  
 .logo__footer {
   color: var(--link-text-color);
 }  
