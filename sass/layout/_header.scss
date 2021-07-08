@@ -5,7 +5,9 @@
   height: 60px;
   border-bottom: 1px solid #ececec;
 }
-
+.header .container {
+  margin: 0;
+}
 .site-nav__item {
   display: none;
 }
@@ -53,7 +55,6 @@
   }
 
   .site-nav__link {
-    position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -89,7 +90,6 @@
     }
     &::after {
       content: '';
-      position: absolute;
 
       display: block;
       width: 100%;
